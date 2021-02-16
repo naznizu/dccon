@@ -41,7 +41,7 @@ body {
 }
 .chat_outer_box {
   position: relative;
-  margin: -1rem 0rem 0rem 0rem;
+  margin: -0.75rem 0rem 0rem 0rem;
   padding: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0);
@@ -61,7 +61,7 @@ body {
   height: 2rem;
   line-height: 1.5rem;
   text-align: left;
-  left: 0rem;
+  left: 4.5rem;
   top: -0.75rem;
   background: rgba(0, 0, 0, 0);
   border: solid var(--main-theme-color);
@@ -74,9 +74,9 @@ body {
   position: absolute;
   width: 4.5rem;
   height: 1.75rem;
-  text-align: left;
+  text-align: right;
   left: 0.5rem;
-  top: 2.25rem;
+  top: 0.5rem;
   padding: 0.25rem 0.5rem 0 0;
   background: var(--main-theme-color);
   transform: skewY(-0deg) translate3d(0, 0, 0);
@@ -84,7 +84,7 @@ body {
 .chat_badge_box > img {
   width: 1.125rem;
   height: 1.125rem;
-  margin: 0 0 0 0.1rem;
+  margin: 0rem 0rem 0rem 0.1rem;
   transform: skewY(0deg) rotate(-0deg) translate3d(0, 0, 0);
   /* mix-blend-mode: luminosity; */
   /* filter: invert(1); */
@@ -141,7 +141,7 @@ body {
 .chat_msg_box {
   padding: 2.25rem 0.5rem 0.5rem 5rem;
   min-height: 4rem;
-  max-height: 14rem;
+  max-height: 15rem;
   overflow: hidden;
   font-size: 1.2rem;
   font-weight:bold;
@@ -172,7 +172,7 @@ body {
   vertical-align: bottom;
 }
 .cheer_icon {
-  height: 1.25rem;
+  height: 2rem;
 }
 .twitch_emote {
   height: 2rem;
