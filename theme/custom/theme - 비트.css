@@ -7,10 +7,10 @@
 
 
 @font-face {
-  font-family: 'Galmuri14';
+  font-family: 'bitbit';
   font-style: normal;
-  font-weight: 400;
-  src: local('Galmuri14 Regular'), url('../_shared/fonts/Galmuri14.ttf');
+  font-weight: 700;
+  src: local('던파 비트비트체 TTF'), url('../_shared/fonts/DNFBitBitTTF.ttf');
 }
 
 :root {
@@ -24,7 +24,7 @@ html {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family:'Galmuri14', sans-serif;
+  font-family:'bitbit', sans-serif;
   -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 5% );
 }
 body {
