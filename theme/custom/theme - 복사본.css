@@ -133,7 +133,7 @@ body {
 }
 
 .chat_nickname_box {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight:bold;
   --shadow:#000000;
   text-shadow:-2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px,var(--shadow) 0px 0px 3px;
@@ -144,7 +144,7 @@ body {
   min-height: 4rem;
   max-height: 15rem;
   overflow: hidden;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight:bold;
   z-index: -1;
   --shadow:#000000;
@@ -157,7 +157,7 @@ body {
 .chat_msg_box.image_only {
   padding-top: 2.25rem;
   padding-bottom:  0.5rem;
-  text-align: left;
+  text-align: center;
 }
 .chat_cheer_box + .chat_msg_box {
   padding-top: 2.5rem;
